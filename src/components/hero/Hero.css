@@ -140,3 +140,111 @@ section{
     width: 50px;
     height: 50px;
 }
+
+
+
+
+/* Medium screens (tablet) */
+@media screen and (max-width: 1024px){
+    section{
+        flex-direction: column;
+        align-items: center;
+        min-height: 70vh;
+        padding: 20px 0;
+    }
+    .left-section{
+        margin-left: 0;
+        text-align: center;
+        gap: 20px;
+    }
+    .right-section{
+        margin-right: 0;
+        margin-top: 30px;
+    }
+    .right-section img{
+        width: 80%;
+        height: auto;
+    }
+    .left-section h1{
+        font-size: 48px;
+    }
+    .left-section p{
+        font-size: 18px;
+    }
+    .left-section button{
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .hero-cards{
+        flex-direction: column;
+        gap: 20px;
+        position: relative;
+        bottom: 0;
+        height: auto;
+        padding: 20px 0;
+    }
+    .hero-card1, .hero-card2, .hero-card3{
+        width: 90%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/* Small screens (mobile) */
+@media screen and (max-width: 768px){
+    section{
+        min-height: 60vh;
+        padding: 10px;
+    }
+    .left-section h1{
+        font-size: 36px;
+    }
+    .left-section p{
+        font-size: 16px;
+    }
+    .left-section button{
+        width: 140px;
+        height: 38px;
+        font-size: 14px;
+        padding: 10px 25px;
+    }
+    .right-section img{
+        width: 100%;
+        height: auto;
+    }
+    .hero-cards{
+        gap: 15px;
+    }
+}
+
+/* Extra small screens (very small mobile) */
+@media screen and (max-width: 480px){
+    .left-section h1{
+        font-size: 28px;
+    }
+    .left-section p{
+        font-size: 14px;
+    }
+    .left-section button{
+        width: 120px;
+        height: 35px;
+        font-size: 12px;
+        padding: 8px 20px;
+    }
+    .hero-card1 h3, .hero-card2 h3, .hero-card3 h3{
+        font-size: 14px;
+        width: auto;
+    }
+    .hero-card1, .hero-card2, .hero-card3{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .hero-card1 img, .hero-card2 img, .hero-card3 img{
+        width: 40px;
+        height: 40px;
+    }
+}

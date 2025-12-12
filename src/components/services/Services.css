@@ -1,0 +1,116 @@
+.services-section{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+.services-heading{
+    text-align: center;
+}
+
+.services-heading h3{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Work Sans';
+    color:#017AFF ;
+    letter-spacing: 20%;
+    padding-bottom: 20px
+}
+
+.services-heading h1{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Yeseva One';
+    color: #1F2B6C;
+}
+
+.services-cards{
+    width: 1068px;
+    margin-left: 450px;
+    margin-right: 183px;
+    padding-top: 60px;
+}
+
+.services-card{
+    width: 300px;
+    height: 400px;
+    background-color:#BFD2F8 ;
+    border-radius: 10px;
+}
+
+.services-card h3{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Yeseva One';
+    color: #1F2B6C;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.services-card p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Work Sans';
+    width: 289px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+.upper-cards-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    gap: 80px;
+}
+
+.lower-cards-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .services-card {
+        flex: 0 0 48%;   
+        margin-bottom: 20px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .services-card {
+        flex: 0 0 48%;   
+        margin-bottom: 15px;
+    }
+    
+    .services-section {
+        padding: 40px 15px; 
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+    .services-card {
+        flex: 0 0 100%;   
+        margin-bottom: 15px;
+    }
+
+    .services-heading h1 {
+        font-size: 26px;  
+    }
+
+    .services-heading h3 {
+        font-size: 16px;
+    }
+
+    .services-section {
+        padding: 30px 10px; 
+    }
+}
