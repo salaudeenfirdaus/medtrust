@@ -1,0 +1,72 @@
+.doctors-section{
+    width: 100%;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+.doctors-heading{
+    text-align: center;
+}
+
+.doctors-heading h3{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Work Sans';
+    color:#017AFF ;
+    letter-spacing: 2px;
+    padding-bottom: 20px
+}
+
+.doctors-heading h1{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Yeseva One';
+    color: #1F2B6C;
+}
+
+.doctors-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 183px;
+    margin-right: 183px;
+    padding-top: 50px;
+}
+
+.card{
+    width: 317px;
+    height: 550px;
+    background-color:#BFD2F8 ;
+}
+
+.card h4{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Work Sans';
+    text-align: center;
+    padding-top: 20px;
+    color: #1F2B6C;
+}
+
+.card h3{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Work Sans';
+    text-align: center;
+    padding-top: 10px;
+    color: #1F2B6C;
+    letter-spacing: 1px;
+}
+
+ .socials-icons img{
+    padding-top: 20px;
+    
+
+}
+
+.card p{
+    text-align: center;
+}
+
+.progress-bar img{
+    padding-top: 50px;
+}

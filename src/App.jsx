@@ -4,6 +4,7 @@ import Navbar from "./components/navbar/Navbar";
 import Hero from "./components/hero/Hero.jsx";
 import About from "./components/about/About.jsx";
 import Services from "./components/services/Services.jsx";
+import Doctors from "./components/doctors/Doctors.jsx"
 import "./index.css"; 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Hero />
       <About />
       <Services />
+      <Doctors />
     </div>
     </>
   );
